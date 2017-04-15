@@ -1,0 +1,3 @@
+Fixed missing libgcrypt11 for Brackets text editor on Ubuntu
+
+fixed missing libgcrypt11 on Ubuntu where Brackets text editor will not install, so i used the debtool brbsix created, unpacked Brackets, removed the package's dependence on libgcrypt11, copied the library to the unpacked package directory and finally rebuilded the package
